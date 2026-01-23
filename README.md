@@ -7,6 +7,7 @@ Para executar este projeto, você precisará instalar os seguintes pacotes Pytho
 - Django
 - Geoip2
 - Requests
+- OpenStreetMap (via Leaflet.js para mapas interativos)
 
 ```commandline
 pip install django geoip2 requests
