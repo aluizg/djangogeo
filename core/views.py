@@ -15,7 +15,7 @@ class IndexView(View):
         termo = request.GET.get('key', None)
         local = request.GET.get('loc', None)
 
-        print('Localidade do Cliente:', local)
+        print('Localidade do Cliente:', cidade)
 
         context = {
             'city': cidade,
